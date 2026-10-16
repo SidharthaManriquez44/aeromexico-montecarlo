@@ -4,6 +4,9 @@ __pycache__/
 *$py.class
 *.pyc
 
+# Simulation outputs
+results/
+
 # Virtual enviroment
 venv/
 .env/
