@@ -121,7 +121,22 @@ python -m pytest -q
 
 ## Resultado de la corrida incluida
 
-Con 10,000 iteraciones y semilla 42, la alternativa C obtuvo un VME aproximado de **MXN 141.6 millones** y una probabilidad de pérdida de **6.9 %**. La alternativa A obtuvo MXN 133.3 millones y 2.9 % de probabilidad de pérdida; la alternativa B, MXN 120.3 millones y 16.2 %. Bajo los valores de referencia, los puntos de equilibrio fueron aproximadamente 56,667 pasajeros (A), 70,200 (B) y 61,667 (C). Estos resultados son reproducibles con los supuestos del proyecto y no deben interpretarse como cifras reales de Aeroméxico.
+>Con 10,000 iteraciones y semilla 42<br>
+> Se obtuvieron un VME aproximado de:
+>* La alternativa C obtuvo  **MXN 141.6 millones** y una probabilidad de pérdida de **6.9 %**.
+>* La alternativa A obtuvo MXN 133.3 millones y 2.9 % de probabilidad de pérdida.
+>* La alternativa B, MXN 120.3 millones y 16.2 %
+
+<p align="center">
+  <img src="src/aeromexico_montecarlo/assets/images/sensibilidad_vme.png" alt="Sensibilidad" width="800">
+</p>
+
+Bajo los valores de referencia, los puntos de equilibrio fueron aproximadamente:
+* 56,667 pasajeros (A),
+* 70,200 (B)
+* 61,667 (C)
+
+Estos resultados son reproducibles con los supuestos del proyecto y no deben interpretarse como cifras reales de Aeroméxico.
 
 ## Lectura de resultados y limitaciones
 
